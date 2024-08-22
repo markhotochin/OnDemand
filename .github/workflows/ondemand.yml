@@ -1,9 +1,5 @@
 netspaker_scan_job:
-on:
-push:
-branches:
-- main
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       # Starts actions with given inputs
       - name: Start Netsparker Enterprise Scan
