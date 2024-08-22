@@ -9,8 +9,8 @@ netspaker_scan_job:
           website-id: '25b36c86-a132-4a38-2937-ad2b03b447b1'
           scan-type: 'FullWithSelectedProfile'
           profile-id: '562e9ac7-031c-4fe0-3893-adda03245588'
-          user-id: ${{ 2eacf0677ba14a261c14ad2b03453dbb }}
-          api-token: ${{ aHybPOxAtbi3bnreYTzYyWA7N1qIWF2z4CMtoebIe3c= }}
+          user-id: ${{ userid }}
+          api-token: ${{ apitoken }}
           base-url: 'https://www.netsparkercloud.com'
           fail-on-level: 'DoNotFail'
           wait-for-completion: false
